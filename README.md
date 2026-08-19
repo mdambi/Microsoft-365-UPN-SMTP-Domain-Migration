@@ -1,7 +1,6 @@
-Here's a complete, ready-to-copy Markdown file for your GitHub repository:
+Here is the corrected `README.md` content with all links fixed to point to your repository `mdambi/Microsoft-365-UPN-SMTP-Domain-Migration`.
 
----
-
+```md
 # UPN/Email Domain Migration Script
 
 [![PowerShell Version](https://img.shields.io/badge/PowerShell-5.1%2B-blue.svg)](https://github.com/PowerShell/PowerShell)
@@ -24,6 +23,7 @@ Here's a complete, ready-to-copy Markdown file for your GitHub repository:
 - [Troubleshooting](#-troubleshooting)
 - [Security Best Practices](#-security-best-practices)
 - [FAQ](#-faq)
+- [Contributing](#-contributing)
 - [License](#-license)
 
 ## 🚀 Overview
@@ -82,13 +82,19 @@ Install-Module Microsoft.Graph.Identity.DirectoryManagement -Scope CurrentUser -
 
 ### Method 1: Direct Download
 ```powershell
-# Download the script
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/your-repo/Admin.ps1" -OutFile "Admin.ps1"
+# Download the script from this repository
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration/main/Admin.ps1" -OutFile "Admin.ps1"
 ```
 
-### Method 2: Manual Copy
+### Method 2: Clone the Repository
+```powershell
+git clone https://github.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration.git
+cd Microsoft-365-UPN-SMTP-Domain-Migration
+```
+
+### Method 3: Manual Copy
 1. Create a new file named `Admin.ps1`
-2. Copy the script content
+2. Copy the script content from the repository
 3. Save the file in your working directory
 
 ### Module Installation (if needed)
@@ -428,7 +434,7 @@ Contributions are welcome! Here's how you can help:
 ### Development Setup
 ```powershell
 # Clone the repository
-git clone https://github.com/yourusername/upn-migration-script.git
+git clone https://github.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration.git
 
 # Install development dependencies
 Install-Module -Name Pester -Force
@@ -457,6 +463,16 @@ FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TOR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
+
+## 📞 Support
+
+For support, please use the following channels:
+
+- **Issues**: [GitHub Issues](https://github.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration/discussions)
+
+---
+
 <p align="center">
   <i>🌟 If this script helped you, please give it a star on GitHub!</i>
 </p>
@@ -467,4 +483,7 @@ DEALINGS IN THE SOFTWARE.
 
 ---
 
-**Found a bug or have a suggestion?** Please [open an issue](https://github.com/yourusername/upn-migration-script/issues) and help improve this tool for everyone!
+**Found a bug or have a suggestion?** Please [open an issue](https://github.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration/issues) and help improve this tool for everyone!
+```
+
+The links for direct download, cloning, issues, discussions, and the main repository page have been updated to use your URL: `https://github.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration`. The LICENSE link is kept as `LICENSE`, assuming the file exists in your repository root.
