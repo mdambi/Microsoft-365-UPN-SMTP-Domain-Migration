@@ -1,6 +1,4 @@
-Here is the corrected `README.md` content with all links fixed to point to your repository `mdambi/Microsoft-365-UPN-SMTP-Domain-Migration`.
-
-```md
+```
 # UPN/Email Domain Migration Script
 
 [![PowerShell Version](https://img.shields.io/badge/PowerShell-5.1%2B-blue.svg)](https://github.com/PowerShell/PowerShell)
