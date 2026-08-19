@@ -479,10 +479,3 @@ For support, please use the following channels:
 **Found a bug or have a suggestion?** Please [open an issue](https://github.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration/issues) and help improve this tool for everyone!
 
 ---
-
-The only changes made were:
-1. **Installation Method 1**: Updated the download URL to `https://raw.githubusercontent.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration/main/Admin.ps1`
-2. **Development Setup**: Updated the clone URL to `https://github.com/mdambi/Microsoft-365-UPN-SMTP-Domain-Migration.git`
-3. **Support section**: Updated Issues and Discussions links to point to your repository
-
-All other content, formatting, and sections remain exactly as you originally had them.
